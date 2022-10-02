@@ -1,0 +1,23 @@
+{
+  "name": "it-kamasutra-backend",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/anzudevelop/it-kamasutra-backend.git",
+  "author": "anzudevelop <anzudevelop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn tsc -w",
+    "dev": "yarn nodemon --inspect .\\dist\\index.js"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.7.23",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
